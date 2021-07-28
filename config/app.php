@@ -229,6 +229,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // Custom facade
+        'FlashMessage' => App\View\Components\FlashMessage::class
     ],
 
 ];
